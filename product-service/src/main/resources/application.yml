@@ -1,0 +1,15 @@
+server:
+  port: 8081
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ecommerce
+    username: postgres
+    password: your_password
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+grpc:
+  server:
+    port: 9091
